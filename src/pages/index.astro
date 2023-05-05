@@ -36,6 +36,7 @@ const blogs = [
 <Layout title="Blogs">
 	<main>
 		<h1 class="titulo">Clone de Daily</h1>
+		<hr>
 		<div class="containerCard">
 			{ 
 				blogs.map(blog => <Card title={blog.titulo} date={blog.date} read={blog.read} img={blog.img}/>)
@@ -48,6 +49,7 @@ const blogs = [
 
 	.titulo {
 		text-align: center;
+		font-size: 30px;
 	}
 
 	.containerCard {
